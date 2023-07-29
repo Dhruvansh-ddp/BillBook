@@ -1,0 +1,25 @@
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-container th,
+.table-container td {
+  padding: 10px;
+  /* border: 1px solid black; */
+}
+
+.table-container tbody tr {
+  background-color: gray;
+}
+
+.table-container tbody td {
+  background-color: #d9d8d8;
+}
+
+.table-container tbody td .cell-content {
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 10px;
+}
+

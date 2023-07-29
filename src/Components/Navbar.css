@@ -1,0 +1,18 @@
+nav {
+    background-color: #768ae6;;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 24px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+  }
+  
+  

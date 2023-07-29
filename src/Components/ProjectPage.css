@@ -1,0 +1,102 @@
+/* used in many places */
+
+/*   ProjectPage component */
+
+.project-page {
+    margin: 20px;
+  }
+  
+  .project-item {
+    border: 1px solid #768ae6;;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .project-item h3 {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  
+  .project-item strong {
+    font-weight: bold;
+  }
+  
+  .project-item label {
+    display: inline-block;
+    width: 120px;
+    margin-right: 10px;
+  }
+  
+  .project-item input,
+  .project-item select {
+    margin-bottom: 10px;
+  }
+  
+  .project-item button {
+    margin-right: 5px;
+  }
+  
+  .add-project-button {
+    margin-top: 10px;
+  }
+  
+
+
+  .project-box {
+    width: 350px;
+    height: 180px;
+    background-color: #f2f2f2;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .add-project-box {
+    width: 200px;
+    height: 200px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin: 5px;
+ 
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .add-button{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+
+  .project-box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  strong {
+    padding: 5px;
+    margin: 5px;
+  }
+
+  div:has(strong){
+    /* Add styles for the parent div here */
+     
+    padding: 10px;
+  }
+
+  li {
+    /* Set list-style to none to remove the marker */
+    list-style: none;
+  }
